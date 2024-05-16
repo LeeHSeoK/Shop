@@ -29,7 +29,7 @@ public class Item {
 
     private int stockNumber;                //재고 수량
 
-    @Lob
+    @Lob                                    //@Lob = 대량의 텍스트나 데이터
     @Column(nullable = false)
     private String itemDetail;              //상품 상세 설명
 

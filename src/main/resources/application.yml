@@ -5,8 +5,17 @@ spring:
   application:
     name: spring-shop
 
+  devtools:
+    restart:
+      enabled: true
+    
+    livereload:
+      enabled: true
 
-####################################
+  thymeleaf:
+    cache: false
+
+  ####################################
 # MySql Setting
 ####################################
   datasource:
