@@ -40,6 +40,14 @@ spring:
     database-platform: org.hibernate.dialect.MySQL8Dialect  # MySQL8 버전 사용
 
 ####################################
+# Security Setting
+####################################
+  security:
+    user:
+      name: test@test.com
+      password: 1111
+
+####################################
 # 로그 정보 설정
 ####################################
 logging:
@@ -49,4 +57,5 @@ logging:
         type:
           descriptor:
             sql: trace  # 물음표에 바인드 파라미터 출력
+
 
